@@ -1,0 +1,35 @@
+# VCS
+.git
+.gitignore
+
+# Editor / OS
+.vscode
+.idea
+.DS_Store
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build artifacts
+api-booking
+bin/
+dist/
+
+# Logs
+*.log
+
+# Env files (segurança)
+.env
+.env.*
+
+# Docker
+containers/docker/postgres/data
+containers/docker/postgres/init/*.sql
+
+# HTTP cl

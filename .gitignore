@@ -1,0 +1,61 @@
+# =========================
+# Go
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Binários do projeto
+api-booking
+bin/
+dist/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS
+# =========================
+.DS_Store
+
+# =========================
+# Docker
+# =========================
+containers/docker/postgres/data/
+containers/docker/postgres/tmp/
+*.pid
+
+# =========================
+# HTTP / API clients
+# =========================
+requests.http
+
+# =========================
+# Coverage / Reports
+# =========================
+coverage.out
+
+# =========================
+# Temporary files
+# =========================
+tmp/
