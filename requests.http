@@ -1,0 +1,44 @@
+GET http://127.0.0.1:8000/events
+Authorization: Bearer 
+
+
+###
+GET http://127.0.0.1:8000/events/1
+Authorization: Bearer 
+
+###
+POST http://127.0.0.1:8000/events
+Content-Type:  application/json
+Authorization: Bearer 
+
+{"name": "Hulk 2", "description": "The Green Hero", "location": "Australia", "datetime": "2025-01-30T00:00:00.000Z" }
+
+###
+PUT http://127.0.0.1:8000/events/2
+Authorization: Bearer 
+Content-Type: application/json
+
+{"name": "Spider Main", "description": "The Spider Main", "location": "East US2", "datetime": "2025-01-30T00:00:00.000Z" }
+
+###
+DELETE http://127.0.0.1:8000/events/1
+Authorization: Bearer 
+
+###
+POST http://127.0.0.1:8000/signup
+Content-Type: application/json
+
+{"email": "email@gmail.com", "password": "rever"}
+
+
+###
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{"email": "email@gmail.com", "password": "rever"}
+
+
+###
+POST http://127.0.0.1:8000/events/1/register
+Content-Type: application/json
+Authorization: Bearer 
